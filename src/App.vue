@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h2>hello v</h2>
+    <h3>second</h3>
   </div>
 </template>
 

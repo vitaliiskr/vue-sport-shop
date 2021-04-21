@@ -1,5 +1,7 @@
 # my-project
 
+[DEMO](https://vitaliiskr.github.io/vue-sport-shop/)
+
 ## Project setup
 ```
 npm install

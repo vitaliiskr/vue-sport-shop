@@ -9,15 +9,16 @@
 </template>
 
 <style lang="scss">
+@import '../../styles/variable.scss';
   .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: max-content;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 
     &__img {
-      border: 1px red solid;
+      border: 1px $main-color solid;
       border-radius: 15px;
       display: block;
       width: 90px;

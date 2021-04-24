@@ -26,20 +26,23 @@ export default {
 <style lang="scss">
 @import '@/styles/variable.scss';
    .nav {
+     text-align: center;
      &__list {
        list-style: none;
        display: flex;
-       justify-content: space-around;
+       justify-content: center;
      }
      &__item {
+       font-size: 20px;
+       font-weight: 400;
        text-transform: uppercase;
+       margin: 0 20px;
        color: red,
      }
      &__link {
        text-decoration: none;
        color: $secondary-color;
-       font-weight: 400;
+       font-weight: 700;
      }
-
    }
 </style>

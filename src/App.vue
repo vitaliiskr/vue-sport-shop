@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Slider :mainSlider="siteData.MainSlider"/>
   </div>
 </template>
 
@@ -8,16 +9,22 @@
 // eslint-disable-next-line import/no-unresolved
 import * as content from '../public/project.json';
 import Header from './components/Header/Header.vue';
+import Slider from './components/Slider/Slider.vue';
 
-const preHeading = content.SiteData.MainSlider;
-
-console.log(content);
-console.log(preHeading);
+const siteData = content.SiteData;
+console.log(siteData.MainSlider);
 
 export default {
   name: 'App',
   components: {
     Header,
+    Slider,
+  },
+
+  data() {
+    return {
+      siteData,
+    };
   },
 };
 </script>

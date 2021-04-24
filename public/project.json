@@ -6,7 +6,7 @@
           "PreHeading": "<span>NEW ARRIVAL</span>",
           "Heading": "<span>50% OFF</span>",
           "PostHeading": "<span>WOMEN`S <strong>SNEAKERS</strong></span>",
-          "Img": "/new_arrival.png",
+          "Img": "../../images/new_arrival.jpg",
           "Link": "https://www.nike.com/w/new-womens-3n82yz5e1x6"
         },
         {

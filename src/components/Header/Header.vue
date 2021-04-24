@@ -1,6 +1,7 @@
 <template>
   <header class="header">
     <HeaderLogo />
+    <hr>
     <HeaderNav />
   </header>
 </template>

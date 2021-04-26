@@ -2,39 +2,37 @@
 <div class="slider"
 >
   <div
-    class="slider__item"
-    v-for="(slider, index) in mainSlider"
-    v-show="selectedSlide === index"
-    :key="slider.PreHeading"
-    :style="{backgroundImage: `url(${ref})`}"
+  class="slider__item"
+  v-for="(slider) in mainSlider"
+  :key="slider.PreHeading"
+  :style="{ backgroundImage: `url(${ref})`, transform: `translateY(${selectedSlide * -100}%)`}"
   >
-    <div
-      class="slider__preheading"
-      v-html="slider.PreHeading"
-    >
-    </div>
-    <div
-      class="slider__heading"
-      v-html="slider.Heading"
-    >
-    </div>
-    <div
-      class="slider__post-heading"
-      v-html="slider.PostHeading">
-    </div>
-    <a :href="slider.Link" class="slider__buy">Shop now!</a>
-
-    <SliderButton
-      :selectedSlide="selectedSlide"
-      :quantity="mainSlider.length"
-      @selectSlide="selectSlide"
-    />
-
+  <div
+    class="slider__preheading"
+    v-html="slider.PreHeading"
+  >
   </div>
+  <div
+    class="slider__heading"
+    v-html="slider.Heading"
+  >
+  </div>
+  <div
+    class="slider__post-heading"
+    v-html="slider.PostHeading">
+  </div>
+  <a :href="slider.Link" class="slider__buy">Shop now!</a>
+  </div>
+  <SliderButton
+    :selectedSlide="selectedSlide"
+    :quantity="mainSlider.length"
+    @selectSlide="selectSlide"
+  />
 </div>
 </template>
 
 <script>
+// v-show="selectedSlide === index"
 import SliderButton from './SliderButton.vue';
 
 export default {
@@ -61,6 +59,11 @@ export default {
       this.selectedSlide = number;
     },
   },
+  watch: {
+    selectedSlide(current, previous) {
+      console.log(current, previous);
+    },
+  },
 };
 </script>
 
@@ -68,13 +71,15 @@ export default {
 @import '../../styles/variable.scss';
   .slider {
     position: relative;
-    padding-top: 15px;
+    margin-top: 15px;
     height: 700px;
     overflow: hidden;
       &__item {
+        transition: transform 0.5s;
+        position: relative;
         text-align: center;
         color: white;
-        padding-left: 40%;
+        padding-left: 20%;
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;

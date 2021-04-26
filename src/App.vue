@@ -2,6 +2,10 @@
   <div id="app">
     <Header />
     <Slider :mainSlider="siteData.MainSlider"/>
+    <NewArrival
+      :arrivalBlock="siteData.ArrivalBlock"
+      :productList="siteData.Children.Products.Children"
+    />
   </div>
 </template>
 
@@ -10,6 +14,7 @@
 import * as content from '../public/project.json';
 import Header from './components/Header/Header.vue';
 import Slider from './components/Slider/Slider.vue';
+import NewArrival from './components/NewArrival/NewArrival.vue';
 
 const siteData = content.SiteData;
 console.log(siteData.MainSlider);
@@ -19,6 +24,7 @@ export default {
   components: {
     Header,
     Slider,
+    NewArrival,
   },
 
   data() {

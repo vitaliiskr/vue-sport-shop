@@ -25,11 +25,11 @@ export default {
     &__buttons {
         position: absolute;
         top: 50%;
+        transform: translateY(-50%);
         right: 5%;
-        bottom: 0;
+        border-radius: 50%;
         display: flex;
         flex-direction: column;
-        border-radius: 50%;
       }
       &__button {
         width: 20px;

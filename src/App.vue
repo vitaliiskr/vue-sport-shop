@@ -6,6 +6,8 @@
       :arrivalBlock="siteData.ArrivalBlock"
       :productList="siteData.Children.Products.Children"
     />
+     <CompaniesList :companiesList="siteData.PartnersBlock.CompaniesList"/>
+     <Footer />
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import * as content from '../public/project.json';
 import Header from './components/Header/Header.vue';
 import Slider from './components/Slider/Slider.vue';
 import NewArrival from './components/NewArrival/NewArrival.vue';
+import CompaniesList from './components/CompaniesList/CompaniesList.vue';
+import Footer from './components/Footer/Footer.vue';
 
 const siteData = content.SiteData;
 console.log(siteData.MainSlider);
@@ -25,6 +29,8 @@ export default {
     Header,
     Slider,
     NewArrival,
+    CompaniesList,
+    Footer,
   },
 
   data() {

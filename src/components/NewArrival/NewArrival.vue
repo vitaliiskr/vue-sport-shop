@@ -3,7 +3,7 @@
     <h2 class="section__title" @click="log">New Arrival</h2>
     <div class="arrival">
       <BestOffer :arrivalBlock="arrivalBlock"/>
-      <ProductList />
+      <ProductList :productList="productList"/>
     </div>
 
   </section>
@@ -40,17 +40,28 @@ export default {
 
 <style lang="scss">
  .section {
-   padding: 0 40px;
+   padding: 0 20px;
    &__arrival {
-   margin-top: 100px;
+   margin: 100px 0 100px;
   }
   &__title {
     text-transform: uppercase;
     text-align: center;
   }
   .arrival {
-    display: flex,
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
   }
 
  }
+
+ @media screen and (max-width: 900px) {
+   .section {
+     padding: 0 20px;
+   }
+    .arrival {
+      flex-direction: column;
+    };
+}
 </style>

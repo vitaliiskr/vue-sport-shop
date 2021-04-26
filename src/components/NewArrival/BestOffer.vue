@@ -38,11 +38,18 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 750px;
     width: 30%;
     background: url('https://i.pinimg.com/originals/a4/c9/4e/a4c94e4f08e17e3d854bb4ae012960e3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     &__text {
       margin: 20px 0;
+      font-size: 50px;
+    }
+    &__title {
+      font-size: 20px;
     }
 
     &__button {
@@ -62,5 +69,14 @@ export default {
           background-color: wheat;
         }
       }
+  }
+
+  @media screen and (max-width: 900px) {
+    .best-offer {
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    };
   }
 </style>

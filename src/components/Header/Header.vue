@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <HeaderLogo />
+    <Logo />
     <hr>
     <HeaderNav />
   </header>
@@ -8,13 +8,13 @@
 
 <script>
 import HeaderNav from './HeaderNav.vue';
-import HeaderLogo from './HeaderLogo.vue';
+import Logo from './Logo.vue';
 
 export default {
   name: 'Header',
   components: {
     HeaderNav,
-    HeaderLogo,
+    Logo,
   },
 };
 

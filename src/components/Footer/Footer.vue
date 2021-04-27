@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <FooterLogo />
+    <FooterLogo :description="footerBlock.Description"/>
     <Information />
     <BuyFromUs />
     <MyAccount />

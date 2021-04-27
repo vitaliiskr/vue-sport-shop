@@ -1,4 +1,5 @@
 <template>
+
    <nav class="nav">
       <ul class="nav__list">
         <li
@@ -37,12 +38,20 @@ export default {
        font-weight: 400;
        text-transform: uppercase;
        margin: 0 20px;
-       color: red,
      }
      &__link {
        text-decoration: none;
        color: $secondary-color;
        font-weight: 700;
+       &:hover {
+         color: grey;
+       }
      }
    }
+   @media screen and (max-width: 900px) {
+    .nav__list {
+      flex-direction: column;
+      align-items: center;
+    };
+  }
 </style>

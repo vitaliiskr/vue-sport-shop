@@ -7,7 +7,7 @@
       :productList="siteData.Children.Products.Children"
     />
      <CompaniesList :companiesList="siteData.PartnersBlock.CompaniesList"/>
-     <Footer />
+     <Footer :footerBlock="siteData.FooterBlock"/>
   </div>
 </template>
 

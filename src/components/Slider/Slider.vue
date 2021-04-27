@@ -5,7 +5,9 @@
   class="slider__item"
   v-for="(slider) in mainSlider"
   :key="slider.PreHeading"
-  :style="{ backgroundImage: `url(${ref})`, transform: `translateY(${selectedSlide * -100}%)`}"
+  :style="{
+    backgroundImage: `url(${slider.Img})`,
+    transform: `translateY(${selectedSlide * -100}%)`}"
   >
   <div
     class="slider__preheading"

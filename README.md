@@ -2,6 +2,8 @@
 
 [DEMO](https://vitaliiskr.github.io/vue-sport-shop/)
 
+Created using Vue.js
+
 ## Project setup
 ```
 npm install

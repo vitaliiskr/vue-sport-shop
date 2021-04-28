@@ -20,8 +20,9 @@
           "PreHeading": "<span>FOOTBALL COLLECTION</span>",
           "Heading": "<span>FASTER TOGETHER</span>",
           "PostHeading": "<span>CHOOSE YOUR BOOT</span>",
-          "Img": "https://1.bp.blogspot.com/-VjEJYAU0A_Y/Wnt3Lr6SXPI/AAAAAAABarc/jxduwOqN2zwN-58Au8KAbcPN3Dw8OzIygCLcBGAs/s738/nike-mercurial-superfly-360-boots.jpg",
-          "Link": "https://www.nike.com/ca/football"
+          "Img": "../../images/new_arrival.jpg",
+          "Link": "https://www.nike.com/ca/football",
+          "url" : "https://1.bp.blogspot.com/-VjEJYAU0A_Y/Wnt3Lr6SXPI/AAAAAAABarc/jxduwOqN2zwN-58Au8KAbcPN3Dw8OzIygCLcBGAs/s738/nike-mercurial-superfly-360-boots.jpg"
         }
       ],
       "ArrivalBlock": {

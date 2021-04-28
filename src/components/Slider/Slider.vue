@@ -2,28 +2,31 @@
 <div class="slider"
 >
   <div
-  class="slider__item"
-  v-for="(slider) in mainSlider"
-  :key="slider.PreHeading"
-  :style="{
-    backgroundImage: `url(${slider.Img})`,
-    transform: `translateY(${selectedSlide * -100}%)`}"
+    class="slider__item"
+    v-for="(slide) in mainSlider"
+    :key="slide.PreHeading"
+    :style="{
+      backgroundImage: `url(${slide.Img})`,
+      transform: `translateY(${selectedSlide * -100}%)`
+    }"
   >
   <div
     class="slider__preheading"
-    v-html="slider.PreHeading"
+    v-html="slide.PreHeading"
   >
   </div>
   <div
     class="slider__heading"
-    v-html="slider.Heading"
+    v-html="slide.Heading"
   >
   </div>
   <div
     class="slider__post-heading"
-    v-html="slider.PostHeading">
+    v-html="slide.PostHeading">
   </div>
-  <a :href="slider.Link" class="slider__buy">Shop now!</a>
+  <a :href="slide.Link" class="slider__buy">
+    Shop now!
+  </a>
   </div>
   <SliderButton
     :selectedSlide="selectedSlide"

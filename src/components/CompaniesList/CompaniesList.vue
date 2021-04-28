@@ -7,7 +7,10 @@
         class="partners-list__item"
         :key="company.Description"
       >
-        <div class="partners-list__logo">
+        <div
+          class="partners-list__logo"
+          :style="{backgroundImage: `url(${company.Img})`}"
+        >
         </div>
       </li>
   </ul>
@@ -37,12 +40,13 @@ export default {
   align-items: center;
   gap: 20px;
   &__logo {
-    background: url("https://www.nicepng.com/png/detail/433-4336044_nike-logo-gray-nike-company-logo.png");
-    background-position: center;
+    border: 1px solid grey;
+    background-position: 50%;
     background-size: cover;
+    background-repeat: no-repeat;
     margin: 0 auto;
     width: 250px;
-    height: 150px;
+    height: 250px;
   }
 }
 

@@ -32,6 +32,7 @@ export default {
   .product {
     text-align: center;
     width: 300px;
+    margin: 0 auto;
      &__img {
        object-fit: cover;
        display: block;

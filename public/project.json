@@ -6,23 +6,22 @@
           "PreHeading": "<span>NEW ARRIVAL</span>",
           "Heading": "<span>50% OFF</span>",
           "PostHeading": "<span>WOMEN`S <strong>SNEAKERS</strong></span>",
-          "Img": "https://wallpaperaccess.com/full/1658841.jpg",
+          "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/woman-slide.jpg?raw=true",
           "Link": "https://www.nike.com/w/new-womens-3n82yz5e1x6"
         },
         {
           "PreHeading": "<span>FOR KIDS</span>",
           "Heading": "<span>25% OFF</span>",
           "PostHeading": "<span>BOYS <strong>T-SHIRTS</strong></span>",
-          "Img": "https://content.nike.com/content/dam/one-nike/en_us/season-2017-fl/YA/YA_SIZE_GUIDES/CLOTHING/090117_YAT_Size_and_Fit_Clothes_Guide_P1.jpg.transform/full-screen/090117_YAT_Size_and_Fit_Clothes_Guide_P1.jpg",
+          "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/kids-slide.jpg?raw=true",
           "Link": "https://www.nike.com/ca/w/boys-tops-t-shirts-1onraz9om13"
         },
         {
           "PreHeading": "<span>FOOTBALL COLLECTION</span>",
           "Heading": "<span>FASTER TOGETHER</span>",
           "PostHeading": "<span>CHOOSE YOUR BOOT</span>",
-          "Img": "../../images/new_arrival.jpg",
-          "Link": "https://www.nike.com/ca/football",
-          "url" : "https://1.bp.blogspot.com/-VjEJYAU0A_Y/Wnt3Lr6SXPI/AAAAAAABarc/jxduwOqN2zwN-58Au8KAbcPN3Dw8OzIygCLcBGAs/s738/nike-mercurial-superfly-360-boots.jpg"
+          "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/soccer-boots.jpg?raw=true",
+          "Link": "https://www.nike.com/ca/football"
         }
       ],
       "ArrivalBlock": {
@@ -36,36 +35,36 @@
         "CompaniesList": [
           {
             "ContentType": "company",
-            "Name": "Nike",
-            "Img": "/nike.png",
-            "Url": "/company/nike",
-            "Description": "Nike Company"
+            "Name": "Reebok",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/reebok.png?raw=true",
+            "Url": "/company/reebok",
+            "Description": "Reebok Company"
           },
           {
             "ContentType": "company",
             "Name": "Under Armor",
-            "Img": "/under-armor.png",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/under-armour.png?raw=true",
             "Url": "/company/under-armor",
             "Description": "Under Armor Company"
           },
           {
             "ContentType": "company",
             "Name": "Fila",
-            "Img": "/fila.png",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/fila.png?raw=true",
             "Url": "/company/fila",
             "Description": "Fila Company"
           },
           {
             "ContentType": "company",
             "Name": "New Balance",
-            "Img": "/new_balance.png",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/new-balance.jpg?raw=true",
             "Url": "/company/new-balance",
             "Description": "New Balance Company"
           },
           {
             "ContentType": "company",
             "Name": "Adidas",
-            "Img": "/adidas.png",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/adidas.jpg?raw=true",
             "Url": "/company/adidas",
             "Description": "Adidas Company"
           }
@@ -78,23 +77,28 @@
         "Socials": [
           {
             "Type": "twitter",
-            "Link": "https://twitter.com/nikestore?lang=en"
+            "Link": "https://twitter.com/nikestore?lang=en",
+            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/twitter.jpg?raw=true"
           },
           {
             "Type": "pinterest",
-            "Link": "https://www.pinterest.com/nike/"
+            "Link": "https://www.pinterest.com/nike/",
+            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/pinterest.png?raw=true"
           },
           {
             "Type": "instagram",
-            "Link": "https://www.instagram.com/nike/?hl=en"
+            "Link": "https://www.instagram.com/nike/?hl=en",
+            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/insta-logo.png?raw=true"
           },
           {
             "Type": "googleplus",
-            "Link": "https://www.nike.com/ca/"
+            "Link": "https://www.nike.com/ca/",
+            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/google-logo.png?raw=true"
           },
           {
             "Type": "facebook",
-            "Link": "https://www.facebook.com/nike/"
+            "Link": "https://www.facebook.com/nike/",
+            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/f-logo.png?raw=true"
           }
         ],
         "PagesTags": [

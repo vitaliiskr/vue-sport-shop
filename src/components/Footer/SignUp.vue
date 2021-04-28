@@ -15,6 +15,7 @@
         <a
           :href="`${link.Link}`"
           class="social-block__link"
+          :style="{backgroundImage: `url(${link.Img})`}"
         >
         </a>
       </li>

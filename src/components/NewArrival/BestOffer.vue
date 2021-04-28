@@ -74,6 +74,7 @@ export default {
   @media screen and (max-width: 900px) {
     .best-offer {
       width: 100%;
+      margin: 0 0 20px;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

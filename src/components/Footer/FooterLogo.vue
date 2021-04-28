@@ -41,4 +41,10 @@ export default {
       max-width: 200px;
     }
   }
+
+  @media screen and (max-width: 900px) {
+   .footer-logo {
+     justify-content: flex-start;
+    }
+  }
 </style>

@@ -37,35 +37,35 @@
             "ContentType": "company",
             "Name": "Reebok",
             "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/reebok.png?raw=true",
-            "Url": "/company/reebok",
+            "Url": "https://www.reebok.com/us",
             "Description": "Reebok Company"
           },
           {
             "ContentType": "company",
             "Name": "Under Armor",
-            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/under-armour.png?raw=true",
-            "Url": "/company/under-armor",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/amour.png?raw=true",
+            "Url": "https://www.underarmour.com/en-us/",
             "Description": "Under Armor Company"
           },
           {
             "ContentType": "company",
             "Name": "Fila",
             "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/fila.png?raw=true",
-            "Url": "/company/fila",
+            "Url": "https://fila.ae/",
             "Description": "Fila Company"
           },
           {
             "ContentType": "company",
             "Name": "New Balance",
-            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/new-balance.jpg?raw=true",
-            "Url": "/company/new-balance",
+            "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/balance-logo.png?raw=true",
+            "Url": "https://www.newbalance.com/",
             "Description": "New Balance Company"
           },
           {
             "ContentType": "company",
             "Name": "Adidas",
             "Img": "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/adidas.jpg?raw=true",
-            "Url": "/company/adidas",
+            "Url": "https://www.adidas.com/us",
             "Description": "Adidas Company"
           }
         ]
@@ -88,7 +88,7 @@
           {
             "Type": "instagram",
             "Link": "https://www.instagram.com/nike/?hl=en",
-            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/insta-logo.png?raw=true"
+            "Img" : "https://github.com/vitaliiskr/vue-shop-picture/blob/master/images/instagram-logo.png?raw=true"
           },
           {
             "Type": "googleplus",

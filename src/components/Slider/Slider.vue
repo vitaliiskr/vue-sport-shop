@@ -54,7 +54,6 @@ export default {
   },
   data() {
     return {
-      ref: 'https://www.periskopi.com/wp-content/uploads/2019/09/shutterstock_221702965.jpg',
       selectedSlide: 0,
     };
   },
@@ -62,11 +61,6 @@ export default {
   methods: {
     selectSlide(number) {
       this.selectedSlide = number;
-    },
-  },
-  watch: {
-    selectedSlide(current, previous) {
-      console.log(current, previous);
     },
   },
 };

@@ -17,7 +17,10 @@
       text-decoration: none;
       color: $secondary-color;
       margin: 10px 0;
-
+      transition: color 0.5s;
+       &:hover {
+      color: white;
     }
+  }
   }
 </style>

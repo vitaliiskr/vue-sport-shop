@@ -1,6 +1,6 @@
 <template>
   <section class="section section__arrival">
-    <h2 class="section__title" @click="log">New Arrival</h2>
+    <h2 class="section__title">New Arrival</h2>
     <div class="arrival">
       <BestOffer :arrivalBlock="arrivalBlock"/>
       <ProductList :productList="productList"/>
@@ -28,12 +28,6 @@ export default {
   components: {
     BestOffer,
     ProductList,
-  },
-
-  methods: {
-    log() {
-      console.log(this.productList);
-    },
   },
 };
 </script>

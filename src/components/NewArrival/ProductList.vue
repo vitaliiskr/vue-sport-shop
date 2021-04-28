@@ -33,6 +33,11 @@ export default {
     text-align: center;
     width: 300px;
     margin: 0 auto;
+    transition: transform 1s;
+
+     &:hover {
+      transform: scale(1.1);
+    }
      &__img {
        object-fit: cover;
        display: block;

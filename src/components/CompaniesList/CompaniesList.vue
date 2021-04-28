@@ -7,11 +7,12 @@
         class="partners-list__item"
         :key="company.Description"
       >
-        <div
+        <a
+          :href="company.Url"
           class="partners-list__logo"
           :style="{backgroundImage: `url(${company.Img})`}"
         >
-        </div>
+        </a>
       </li>
   </ul>
   </section>
@@ -21,11 +22,6 @@
 export default {
   name: 'CompaniesList',
   props: ['companiesList'],
-  methods: {
-    log() {
-      console.log(this.companiesList);
-    },
-  },
 };
 </script>
 
@@ -40,6 +36,7 @@ export default {
   align-items: center;
   gap: 20px;
   &__logo {
+    display: block;
     border: 1px solid grey;
     background-position: 50%;
     background-size: cover;
@@ -47,6 +44,11 @@ export default {
     margin: 0 auto;
     width: 250px;
     height: 250px;
+    border-radius: 5px;
+    transition: transform 1s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 

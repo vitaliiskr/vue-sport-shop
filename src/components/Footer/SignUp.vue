@@ -51,9 +51,9 @@ export default {
     display: flex;
       &__link {
         display: block;
-        background: url('https://www.pngitem.com/pimgs/m/204-2040928_logo-twitter-circle-grey-current-twitter-logo-png.png');
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
         width: 30px;
         height: 30px;
         margin: 10px;
